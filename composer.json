@@ -1,0 +1,21 @@
+{
+    "name": "mohsin/awhere-api-client",
+    "description": "Unofficial PHP client for aWhere weather API",
+    "keywords": ["aWhere", "weather", "api", "sdk"],
+    "homepage": "https://github.com/SaifurRahmanMohsin/awhere-api-client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saifur Rahman Mohsin",
+            "email": "mohsin92@me.com",
+            "homepage": "https://imoz.in"
+        }
+    ],
+    "require": {
+        "league/oauth2-client": "^2.5"
+    },
+    "autoload": {
+        "psr-4": { "aWhere\\" : "src/" }
+    }
+}
